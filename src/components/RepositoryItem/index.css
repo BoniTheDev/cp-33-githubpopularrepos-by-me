@@ -1,0 +1,43 @@
+/* Write your CSS here */
+
+.each-repo-item {
+  list-style-type: none;
+  padding-top: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f8f8ff;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  width: 30%;
+  border-radius: 12px;
+}
+
+.repo-image {
+  height: 100px;
+  width: 100px;
+}
+
+.repo-heading {
+  color: #e73959;
+  font-size: 20px;
+  font-family: 'Roboto';
+}
+.count-card {
+  display: flex;
+  align-items: center;
+
+  width: 80%;
+}
+
+.icon {
+  height: 18px;
+  width: 18px;
+}
+
+.count-text {
+  color: #1e293b;
+  font-size: 15px;
+  font-family: 'Roboto';
+  padding-left: 15px;
+}

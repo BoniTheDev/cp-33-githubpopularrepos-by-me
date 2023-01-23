@@ -1,0 +1,30 @@
+/* Write your CSS here */
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.app-heading {
+  color: #0f172a;
+  font-size: 40px;
+  font-family: 'Lobster';
+}
+
+.language-tab-item {
+  display: flex;
+
+  padding: 0px;
+  flex-wrap: wrap;
+}
+
+.repos-list {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 0px;
+
+  flex-wrap: wrap;
+}
